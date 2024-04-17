@@ -1,0 +1,52 @@
+
+h1{
+	 font-family: Georgia, serif
+}
+
+body {
+	background-image: url('imagem.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+h3.log{
+	font-size: 38px;
+}
+
+.login{
+	text-align: center;
+	
+}
+
+div.inform{
+
+	margin-top: 200px;
+	font-size: 20px;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	flex-direction:column;
+	box-shadow: 5px 5px 9px;
+}
+div.T1{
+
+	font-size: 25px;
+	text-align: center;
+	padding: 10px;
+	
+
+}
+h1.titulo{
+
+	margin-top: auto;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	box-shadow: 5px 5px 9px;
+	background-color: cadetblue;
+
+}
+
+
