@@ -1,9 +1,10 @@
 
 h1.titulop{
 
-   font-size: 35px;
+   font-size: 45px;
    font-family: Georgia, serif;
    text-align: center;
+   text-shadow: #000 2px 5px 3px;
 
 }
 
@@ -13,9 +14,11 @@ h1.titulop{
     text-align: center;
     justify-content: center;
     box-shadow: 10px 2px 5px;
-    background-color: teal;
+    background-color: rgb(3, 116, 106);
     color: azure;
     margin-bottom: 100px;
+    border-radius: 20%;
+    font-style: oblique;
 
 }
 .desc{
@@ -24,19 +27,30 @@ h1.titulop{
     justify-content: center;
     font-family:  Georgia, serif;
     font-size: 22px;
-    margin-left: 25px;
-    margin-right: 25px;
-    line-height: normal, 1,5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-indent: 5%;
+    
     
 }
 .img1{
 
-    width: 300px;
-    height: 200px;
-    margin-left: 300px;
+    width: 800px;
+    height: 300px;
+    margin-left: 500px;
     text-align: center;
     border-radius: 10%;
     
     
 }
+.desc2{
+    text-align: justify;
+    justify-content: center;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 50PX;
+    margin-right: 50PX;
+    text-indent: 5%;
 
+}
+na
