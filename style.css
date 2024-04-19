@@ -11,7 +11,8 @@ body {
 }
 
 h3.log{
-	font-size: 38px;
+	font-size: 40px;
+
 }
 
 .login{
@@ -21,18 +22,28 @@ h3.log{
 
 div.inform{
 
-	margin-top: 200px;
+	margin-top: 180px;
 	font-size: 20px;
 	text-align: center;
 	justify-content: center;
 	display: flex;
 	flex-direction:column;
 	box-shadow: 5px 5px 9px;
-	background-color: gainsboro;
+	background-color: rgb(3, 116, 106);
 	border-radius: 10%;
-	font-style: oblique;
+	font-style: ;
 	font-weight: bold;
+	width: 40%;
+	margin-left: 600px;
+	color: aliceblue;
 }
+
+.tabelaInfo{
+
+	font-size: 20px;
+	color: aliceblue;
+}
+
 div.T1{
 
 	font-size: 25px;
@@ -48,9 +59,14 @@ h1.titulo{
 	text-align: center;
 	justify-content: center;
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	box-shadow: 5px 5px 9px;
-	background-color: gainsboro;
-	border-radius: 20%;
+	box-shadow: 10px 10px 5px;
+	background-color:  rgb(3, 116, 106);
+	border-radius: 50px;
+	width: 50%;
+	margin-left: 470px;
+	color: aliceblue;
+	text-shadow: #050022 5px 8px 9px;
+	
 
 }
 
@@ -59,4 +75,19 @@ h1.titulo{
 	text-align: center;
 	background-color: aqua;
 	
+}
+.botao1{
+	font-size: 15px;
+}
+.botao2{
+	font-size: 15px;
+}
+.label1{
+	font-size: 22px;
+	text-shadow: #050022 0px 1px 1px;
+	
+}
+.label2{
+	font-size: 22px;
+	text-shadow: #050022 0px 1px 1px;
 }
