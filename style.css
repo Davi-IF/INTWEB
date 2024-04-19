@@ -28,6 +28,10 @@ div.inform{
 	display: flex;
 	flex-direction:column;
 	box-shadow: 5px 5px 9px;
+	background-color: gainsboro;
+	border-radius: 10%;
+	font-style: oblique;
+	font-weight: bold;
 }
 div.T1{
 
@@ -45,8 +49,14 @@ h1.titulo{
 	justify-content: center;
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	box-shadow: 5px 5px 9px;
-	background-color: cadetblue;
+	background-color: gainsboro;
+	border-radius: 20%;
 
 }
 
+.desc{
 
+	text-align: center;
+	background-color: aqua;
+	
+}
