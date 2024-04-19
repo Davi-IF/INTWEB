@@ -1,0 +1,42 @@
+
+h1.titulop{
+
+   font-size: 35px;
+   font-family:  font-family: Georgia, serif;
+   text-align: center;
+
+}
+
+.Ftitulo{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 10px 2px 5px;
+    background-color: teal;
+    color: azure;
+    margin-bottom: 100px;
+
+}
+.desc{
+
+    text-align: justify;
+    justify-content: center;
+    font-family:  Georgia, serif;
+    font-size: 22px;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: normal, 1,5px;
+    
+}
+.img1{
+
+    width: 300px;
+    height: 200px;
+    margin-left: 300px;
+    text-align: center;
+    border-radius: 10%;
+    
+    
+}
+
