@@ -22,7 +22,7 @@ h3.log{
 
 div.inform{
 
-	margin-top: 180px;
+	margin: auto;
 	font-size: 20px;
 	text-align: center;
 	justify-content: center;
@@ -33,14 +33,20 @@ div.inform{
 	border-radius: 10%;
 	font-weight: bold;
 	width: 40%;
-	margin-left: 600px;
+	margin-top: 130px;
 	color: aliceblue;
+	height: fit-content;
+	gap: 10px;
+
 }
 
 .tabelaInfo{
 
 	font-size: 20px;
 	color: aliceblue;
+	border-style: groove;
+	border-radius: 9%;
+	border-color: #fff;
 }
 
 div.T1{
@@ -65,8 +71,6 @@ h1.titulo{
 	margin-left: 470px;
 	color: aliceblue;
 	text-shadow: #050022 5px 8px 9px;
-	
-
 }
 
 .desc{
@@ -76,10 +80,29 @@ h1.titulo{
 	
 }
 .botao1{
-	font-size: 15px;
+  display: inline-block;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
 }
+
 .botao2{
-	font-size: 15px;
+	display: inline-block;
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	transition: background-color 0.3s;
 }
 .label1{
 	font-size: 22px;
@@ -90,3 +113,10 @@ h1.titulo{
 	font-size: 22px;
 	text-shadow: #050022 0px 1px 1px;
 }
+.ancora{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
