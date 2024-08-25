@@ -2,6 +2,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clínica cuida++</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
@@ -32,42 +33,42 @@
         <br />
 
         <label class="label2"> Senha </label>
-        <input
-          type="password"
-          name="Senha"
-          placeholder="Digite sua senha"
-          id="Pass"
-        />
+        <div class="password-container">
+          <input
+            type="password"
+            name="Senha"
+            placeholder="Digite sua senha"
+            id="Pass"
+          />
+          <button type="button" id="togglePassword" class="toggle-password">
+            👁️
+          </button>
+        </div>
 
         <br />
         <br />
-
-        <span class="botao1">
-          <a class="ancora" href="/"> Esqueci minha senha</a>
-        </span>
 
         <span class="botao2">
-          <a class="ancora" href="page.html"> Acessar </a>
+          <button onclick="validateLogin()" class="ancora" href="page.html"> Acessar </button>
         </span>
+        <h3 class="cadastro">Você não tem cadastro?</h3>
+        <a class="cadastrobot" href="cadastro.html">Clique aqui</a>
       </form>
-    </div>
+    </div>  
 
-    <br />
+    <br />  
     <br /><br />
     <br />
     <br />
     <br />
-    <br />
-    <br />
-
+  
     <div class="inform">
-      <span>Para mais informações: </span>
-
-      <span> contato: (82) 0800 2544-2456 </span>
-
-      <span> Local: Bairro Jabuticaba, Rua Treloso Goiabense, N 123 </span>
-
-      <span> email: Clinicacuida++@hotmail.com </span>
+      <span>Para mais informações:</span>
+      <span>contato: (82) 0800 2544-2456</span>
+      <span>Local: Bairro Jabuticaba, Rua Treloso Goiabense, N 123</span>
+      <span>email: Clinicacuida++@hotmail.com</span>
     </div>
+
+    <script src="login.js"></script>
   </body>
 </html>
