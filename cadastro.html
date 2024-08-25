@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadastro.css" />
+
+    <title>Cadastro</title>
+</head>
+<body>
+    <ul>
+        <li class="back1"><a href="index.html">voltar</a></li>
+    </ul>
+       
+    <div class="fundocadcor"> 
+        <div class="campo1">
+            <h1 class="Titulo1">CADASTRO</h1>
+        
+            <form method="">
+                <div class="formulario">
+                    <label id="labelnome" for="nome">Seu nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                </div>
+
+                <div class="formulario">
+                    <label id="labelusuario" for="usuario">Usuário</label>
+                    <input type="text" name="usuario" id="usuario" placeholder="Digite seu usuário">
+                </div>
+
+                <div class="formulario">
+                    <label id="labelemail" for="email">E-mail</label>
+                    <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
+                </div>
+
+                <div class="formulario">
+                    <label id="labelsenha" for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                </div>
+
+                <div class="formulario">
+                    <button type="button" onclick='cadastrar()'>Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="Cad.js"></script>
+</body>
+</html>
