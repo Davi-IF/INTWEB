@@ -1,5 +1,5 @@
 function validarEmail(email) {
-    // Expressão regular para validar o formato do email
+   
     const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     return regex.test(email);
 }
@@ -36,7 +36,6 @@ function cadastrar() {
         validnome = true;
     }
 
-    // Validação do e-mail usando a função validarEmail
     if (!validarEmail(email.value)) {
         labelemail.setAttribute('style', 'color: red');
         labelemail.innerHTML = 'E-mail *Insira um e-mail válido';

@@ -62,12 +62,16 @@ h1.titulo {
    font-size: 3em;
    font-weight: 900;
    background: linear-gradient(45deg, #00130b, #01332f);
-   -webkit-background-clip: text;
+   background-clip: text; 
+   -webkit-background-clip: text; 
+   -moz-background-clip: text;
+   -ms-background-clip: text; 
+   -o-background-clip: text; 
    -webkit-text-fill-color: transparent;
-   animation: shine 3s infinite; 
+   animation: shine 3s infinite;
    transition: transform 0.3s ease, color 0.3s ease;
-  
 }
+
 
 .titulo:hover {
    transform: scale(1.1); 
